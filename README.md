@@ -63,7 +63,7 @@ PASS3_TTS_SPEED=0.8
 
 ## 3. 動画を作る
 
-入力動画は `public/demo.mp4` を使います。  
+入力動画は `public/demo.mp4` を使います。  mp4の動画をpublicフォルダにいれてください。
 実行コマンド:
 
 ```bash
@@ -125,6 +125,4 @@ PASS3_TTS_SPEED=0.8
 
 ## 6. 補足
 
-- 2回目の背景画像は `public/listen.png` を使います。
-- 3回目と4回目は黒背景です。
 - 字幕フォントを指定したい場合は `.env` に `SUBTITLE_FONT_FILE` を設定できます。
